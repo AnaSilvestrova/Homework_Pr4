@@ -36,7 +36,10 @@ int GetPower(int number, int exponent) //Метод для получения ч
 }
 
 int number = Prompt("Input number you want to exponent: "); // Запрос числа.
+Console.WriteLine();
+
 int exponent = Prompt("Input power you to which you want to raise your number: "); // Запрос степени.
+Console.WriteLine();
 
 if (ValidateExponent(exponent))
 {
